@@ -9,13 +9,15 @@ export const Shop = () => {
         <div className='shopTitle'>
             <h1>KScodeur Shop</h1>
         </div>
-        <div className='products'>
-            {PRODUCTS.map((product)=>{
-                return(
-                    <Product data={product}/>
-                )
-            })}
-        </div>
+        {/* <div className="container_products"> */}
+            <div className='products'>
+                {PRODUCTS.map((product)=>{
+                    return(
+                        <Product data={product}/>
+                    )
+                })}
+            </div>
+        {/* </div> */}
     </div>
   )
 }

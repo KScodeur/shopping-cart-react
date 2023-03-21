@@ -19,3 +19,11 @@
     margin-left: 20px;
     font-size:25px ;
 }
+@media screen and (max-width:770px) {
+    .navbar{
+        height: 60px;
+    }
+    .links a{
+        font-size: 15px;
+    }
+}

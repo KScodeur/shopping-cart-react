@@ -23,8 +23,8 @@ export const Cart = () => {
       </div>
       {totalAmount>0?(
       <div className='checkout'>
-        <p>total: ${totalAmount} ::smile </p>
-        <button onClick={()=>navigate("/")}>Continuer les achats</button>
+        <p>total: ${totalAmount} </p>
+        <button onClick={()=>navigate("/shopping-cart-react")}>Continuer les achats</button>
         <button>Payer</button>
       </div>
       ): <h1>Votre panier est vide</h1>}
